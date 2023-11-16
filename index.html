@@ -2,180 +2,135 @@
 <html lang="en">
 
 <head>
-  <title>Kevin Cui | Home</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Cui | Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+    <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+    <!--
+    
+TemplateMo 556 Catalog-Z
 
-    .fa {
-      padding: 20px;
-      font-size: 30px;
-      width: 50px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-    }
+https://templatemo.com/tm-556-catalog-z
 
-    .fa:hover {
-      opacity: 0.7;
-    }
-
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-    }
-
-    .fa-twitter {
-      background: #55ACEE;
-      color: white;
-    }
-
-    .fa-google {
-      background: #dd4b39;
-      color: white;
-    }
-
-    .fa-linkedin {
-      background: #007bb5;
-      color: white;
-      height: 50%;
-      width: 25%;
-    }
-
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-
-    .center-nav {
-      display: flex;
-      justify-content: center;
-    }
-
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {
-      height: 450px
-    }
-
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-
-      .row.content {
-        height: auto;
-      }
-
-    }
-
-    .center {
-      text-align: center;
-      width: 90%;
-    }
-  </style>
+-->
 </head>
 
 <body>
-  <!-- Background image -->
-  <div class="p-5 text-center bg-image" style="
-      background-image: url('reeds.JPG');
-      height: 675px;
-      width: 100%;
-      object-fit: fill;
-    ">
-    <div style="background-color: rgba(75, 75, 75, 0);">
-      <div>
-        <div style="color: rgb(200,50,50); font-size:100px">
-          <br>
-          <br>
-          <h1 style="font-size:100px; font-family: Georgia, 'Times New Roman', Times, serif">Kevin Cui</h1>
+    <!-- Page Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <!-- <p style="color:cadetblue; font-size: 27px;">Kevin Cui</p> -->
+                <img src="kevin-cui.png" alt="Kevin Cui" width=75% height=auto />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul style="font-family: EB Garamond;" class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-2" href="experience.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-3" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-4" href="kc resume pdf.pdf">Resume</a>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-5" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- Background image -->
+    </nav>
+    <!-- 
+    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll"
+        data-image-src="img/hero.jpg">
+    </div> -->
 
-  <nav class="navbar navbar-expand-sm navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="center-nav" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="experience.html">Experience</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row mb-4">
+            <div class="inner">
+                <div class="row aln-middle">
+                    <div class="col-4 col-14-medium">
+                        <span><img src="headshot_casual.jpg" alt="" width=400px height=auto /></span>
+                        <!-- easter egg :)) -->
+                    </div>
+                    <div class="col-7 col-14-medium" style="font-family: EB Garamond;">
+                        <h1 style="font-size:50px; font-family: EB Garamond;">
+                            Welcome!
+                        </h1>
+                        <p style="font-size:20px; color:cadetblue">
+                            My name is <b>Kevin Cui</b>, and I am an undergraduate/masters of
+                            engineering student at Cornell University (graduating in 2025), studying computer science. I
+                            am
+                            currently the
+                            computer vision lead for the
+                            Cornell University AutoBoat project team, and I have previously worked as a research intern
+                            for the
+                            METEOR
+                            Studio at Arizona State University and an IT consultant for the Institute for Compensation
+                            Studies at the Cornell ILR School. I also have experience as a teaching assistant for
+                            several courses at
+                            Cornell University, including CS 3410 (Computer Systems Organization), CS 2800 (Discrete
+                            Structures),
+                            and CS
+                            2112 (Honors Object Oriented Programming). </p>
+                        <p style="font-size:20px; color:cadetblue">
+                            Ultimately, I am interested in leveraging my
+                            technical
+                            expertise and creative spirit towards networking, learning, and career opportunities,
+                            especially in the
+                            fields
+                            of computer vision and human-machine interfaces.</p>
+                        <br>
+                        <p style=" font-size:20px">
+                            For more information about the work I've done, check out my <a
+                                href="projects.html">projects</a>!</p>
 
-  <div class="container-fluid text-center" style="background-color: rgb(178, 230, 232);">
-    <div class="row content">
-      <div class="col-sm-2 text-left">
-
-      </div>
-      <div class="col-sm-5 text-left">
-        <h1 style="font-family: 'Times New Roman', Times, serif;">
-          Welcome!
-        </h1>
-        <p style=" font-size:18px; font-family: 'Times New Roman' , Times, serif;">
-          My name is <b>Kevin Cui</b>, and I am an undergraduate/masters of
-          engineering student at Cornell University (graduating in 2024), studying computer science. I am currently the
-          computer vision lead for the
-          Cornell University AutoBoat project team, and I have previously worked as a research intern for the METEOR
-          Studio at Arizona State University and an IT consultant for the Institute for Compensation
-          Studies at the Cornell ILR School. I also have experience as a teaching assistant for several courses at
-          Cornell University, including CS 3410 (Computer Systems Organization), CS 2800 (Discrete Structures), and CS
-          2112 (Honors Object Oriented Programming). Ultimately, I am interested in leveraging my technical
-          expertise and creative spirit towards networking, learning, and career opportunities, especially in the fields
-          of computer vision and human-machine interfaces.</p>
-      </div>
-      <div class="col-sm-1 text-center"></div>
-      <div class="col-sm-3 text-center">
-        <br>
-        <br>
-        <img src="headshot_casual.jpg" alt="Kevin Cui Headshot" width=85% height=85%>
-        <br>
-        <div class="center">
-          <a href="https://www.linkedin.com/in/kevinkcui/">
-            <i class="fa fa-linkedin-square" style="font-size:45px; color: black;"> </i>
-          </a>
-          <a href="https://github.com/kevinkcui">
-            <i class="fa fa-github" style="font-size:45px; color: black;"> </i>
-          </a>
-          <a href="mailto:kc734@cornell.edu">
-            <i class="fa fa-envelope" style="font-size:45px; color: black;"> </i>
-          </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+    <footer class="tm-bg-gray pt-3 pb-3 tm-text-gray tm-footer">
+        <div class="container-fluid">
+            <ul class="tm-social-links d-flex justify-content-center">
+                <li class="mb-2"><a target="_blank" rel="noopener noreferrer"
+                        href="https://www.linkedin.com/in/kevinkcui/"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="mb-2"><a target="_blank" rel="noopener noreferrer" href="https://github.com/kevinkcui"><i
+                            class="fab fa-github"></i></a></li>
+            </ul>
+            <div class="row">
+                <div class="col-lg-8 col-md-7 col-12 px-5 mb-3">
+                    Copyright 2023 Kevin Cui. All rights reserved.
+                </div>
+                <div class="col-lg-4 col-md-5 col-12 px-5 text-right">
+                    Last updated: November 2023</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
+    <script src="js/plugins.js"></script>
+    <script>
+        $(window).on("load", function () {
+            $('body').addClass('loaded');
+        });
+    </script>
 </body>
 
 </html>
