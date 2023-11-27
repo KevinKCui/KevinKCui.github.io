@@ -19,7 +19,7 @@ https://templatemo.com/tm-556-catalog-z
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg bg-white fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="https://kevinkcui.github.io/">
         <!-- <p style="color:cadetblue; font-size: 27px;">Kevin Cui</p> -->
@@ -47,9 +47,14 @@ https://templatemo.com/tm-556-catalog-z
         </ul>
       </div>
     </div>
+    <hr>
   </nav>
-  <div style="text-align: center; padding-bottom: 1em; font-family:EB Garamond;">
-    <h1>Personal Projects</h1>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div style="text-align: center; font-family:EB Garamond;">
+    <h1><u>Personal Projects</u></h1>
   </div>
 
   <div class="container-fluid tm-container-content tm-mt-60" style="font-family: EB Garamond;">
@@ -150,7 +155,7 @@ https://templatemo.com/tm-556-catalog-z
 
 
   <div style="text-align: center; padding-bottom: 1em; font-family:EB Garamond;">
-    <h1>Professional Experience</h1>
+    <h1><u>Professional Experience</u></h1>
   </div>
 
   <div class="container-fluid tm-container-content tm-mt-60" style="font-family: EB Garamond;">
@@ -160,7 +165,8 @@ https://templatemo.com/tm-556-catalog-z
         <figure class="effect-ming tm-video-item">
           <img src="system-diag.png" alt="Image" class="img-fluid">
           <figcaption class="d-flex align-items-center justify-content-center">
-            <h2><a target="_blank" rel="noopener noreferrer" href="" style="color:white;"> Volumetric &nbsp &nbsp
+            <h2><a target="_blank" rel="noopener noreferrer" href="NSF_Visual_Media_REU_2023_Manuscript_Kevin_Cui.pdf"
+                style="color:white;"> Volumetric &nbsp &nbsp
                 Streaming
               </a></h2>
         </figure>
@@ -169,7 +175,14 @@ https://templatemo.com/tm-556-catalog-z
 
           <span>Summer 2023</span>
         </div>
-        <p></p>
+        <p>As such, we implement a volumetric streaming pipeline and investigate optimizations through body tracking
+          video region-of-interest filters. More concretely, we integrate two traditional compression techniques,
+          temporal and spatial downsampling, and study their effects on throughput, latency, and quality of experience
+          measurements of a streaming system. Evaluating our pipeline, we find that temporal downsampling decreases data
+          consumption and spatial downsampling decreases execution time. While we found limitations with end-to-end
+          latency, the success of pose-based adaptive filters implies the feasibility of a volumetric streaming system
+          generating point cloud visualizations in real-time. This research paves the way for more extensive study of
+          volumetric streaming and 3-dimensional compression techniques.</p>
       </div>
 
       <!--Title Taxonomy-->
@@ -181,7 +194,7 @@ https://templatemo.com/tm-556-catalog-z
           <figcaption class="d-flex align-items-center justify-content-center">
             <h2><a target="_blank" rel="noopener noreferrer"
                 href="https://github.com/Nonprofit-Open-Data-Collective/titleclassifier" style="color:white;"> Title
-                Taxonomy
+                &nbsp &nbsp Taxonomy
               </a></h2>
         </figure>
         <div class="d-flex justify-content-between tm-text-gray" style="color:black; font-size:24px;">
@@ -189,7 +202,8 @@ https://templatemo.com/tm-556-catalog-z
 
           <span>Summer 2022</span>
         </div>
-        <p></p>
+        <p>An R package to assign raw nonprofit executive titles from Form 990 Part VII to a well-structured title
+          taxonomy.</p>
       </div>
 
       <!--Buoy Detection-->
@@ -206,7 +220,13 @@ https://templatemo.com/tm-556-catalog-z
           <span>Buoy Detection</span>
           <span>Ongoing</span>
         </div>
-        <p></p>
+        <p>Basically, it answers the question: how do we get computers to recognize what we perceive as the things they
+          are? How can we identify a “red buoy” as a “red buoy” even if we’ve never seen that specific object before?
+          The CV team is responsible for training the machine learning model used for identifying competition objects
+          (buoys, targets, etc.) and ensuring we are getting the best results out of our cameras.
+          More specifically, CV works on researching neural networks, building an object detection model (through image
+          annotation and model training), and integrating with our ZED 2i camera.
+        </p>
 
       </div>
     </div>
